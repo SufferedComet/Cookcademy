@@ -15,6 +15,7 @@
 		1D715BE72A43E56400B79D5D /* RecipeExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D715BE62A43E56400B79D5D /* RecipeExamples.swift */; };
 		1D715BE92A43E80B00B79D5D /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D715BE82A43E80B00B79D5D /* RecipeData.swift */; };
 		1D715BEB2A43EB1B00B79D5D /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D715BEA2A43EB1B00B79D5D /* RecipeDetailView.swift */; };
+		1D715BED2A43F00600B79D5D /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D715BEC2A43F00600B79D5D /* AppColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		1D715BE62A43E56400B79D5D /* RecipeExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeExamples.swift; sourceTree = "<group>"; };
 		1D715BE82A43E80B00B79D5D /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
 		1D715BEA2A43EB1B00B79D5D /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		1D715BEC2A43F00600B79D5D /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				1D715BE82A43E80B00B79D5D /* RecipeData.swift */,
+				1D715BEC2A43F00600B79D5D /* AppColor.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				1D715BE52A43709D00B79D5D /* Recipe.swift in Sources */,
 				1D715BEB2A43EB1B00B79D5D /* RecipeDetailView.swift in Sources */,
 				1D715BD62A43703800B79D5D /* RecipesListView.swift in Sources */,
+				1D715BED2A43F00600B79D5D /* AppColor.swift in Sources */,
 				1D715BE92A43E80B00B79D5D /* RecipeData.swift in Sources */,
 				1D715BE72A43E56400B79D5D /* RecipeExamples.swift in Sources */,
 				1D715BD42A43703800B79D5D /* CookcademyApp.swift in Sources */,
