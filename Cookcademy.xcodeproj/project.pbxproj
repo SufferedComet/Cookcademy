@@ -16,6 +16,7 @@
 		1D715BE92A43E80B00B79D5D /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D715BE82A43E80B00B79D5D /* RecipeData.swift */; };
 		1D715BEB2A43EB1B00B79D5D /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D715BEA2A43EB1B00B79D5D /* RecipeDetailView.swift */; };
 		1D715BED2A43F00600B79D5D /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D715BEC2A43F00600B79D5D /* AppColor.swift */; };
+		1D715BEF2A43F27100B79D5D /* RecipeCategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D715BEE2A43F27100B79D5D /* RecipeCategoryGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		1D715BE82A43E80B00B79D5D /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
 		1D715BEA2A43EB1B00B79D5D /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		1D715BEC2A43F00600B79D5D /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		1D715BEE2A43F27100B79D5D /* RecipeCategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCategoryGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				1D715BD52A43703800B79D5D /* RecipesListView.swift */,
 				1D715BEA2A43EB1B00B79D5D /* RecipeDetailView.swift */,
+				1D715BEE2A43F27100B79D5D /* RecipeCategoryGridView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				1D715BED2A43F00600B79D5D /* AppColor.swift in Sources */,
 				1D715BE92A43E80B00B79D5D /* RecipeData.swift in Sources */,
 				1D715BE72A43E56400B79D5D /* RecipeExamples.swift in Sources */,
+				1D715BEF2A43F27100B79D5D /* RecipeCategoryGridView.swift in Sources */,
 				1D715BD42A43703800B79D5D /* CookcademyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
