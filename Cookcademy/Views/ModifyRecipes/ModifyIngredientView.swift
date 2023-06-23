@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ModifyIngredientView: View {
-    @State var ingredient: Ingredient
+    @Binding var ingredient: Ingredient
     
     var body: some View {
         VStack {
@@ -27,7 +27,7 @@ struct ModifyIngredientView: View {
                       HStack {
                         Text("Unit")
                         Spacer()
-                        Text(ingredient.unit.rawValue)
+                        //Text(ingredient.unit.rawValue)
                       }) {
                 ForEach(Ingredient.Unit.allCases, id: \.self) { unit in
                   Text(unit.rawValue)
@@ -51,7 +51,7 @@ struct ModifyIngredientView_Previews: PreviewProvider {
     @State static var emptyIngredient = Ingredient(name: "", quantity: 1.0, unit: .none)
     static var previews: some View {
         NavigationView {
-            ModifyIngredientView(ingredient: emptyIngredient)
+            ModifyIngredientView(ingredient: $emptyIngredient)
         }
     }
 }
