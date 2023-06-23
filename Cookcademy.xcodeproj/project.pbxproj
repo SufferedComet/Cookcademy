@@ -18,6 +18,7 @@
 		1D715BED2A43F00600B79D5D /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D715BEC2A43F00600B79D5D /* AppColor.swift */; };
 		1D715BEF2A43F27100B79D5D /* RecipeCategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D715BEE2A43F27100B79D5D /* RecipeCategoryGridView.swift */; };
 		1D715BF32A44E9FD00B79D5D /* ModifyRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D715BF22A44E9FD00B79D5D /* ModifyRecipeView.swift */; };
+		1D715BF52A453B3D00B79D5D /* ModifyMainInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D715BF42A453B3D00B79D5D /* ModifyMainInformationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		1D715BEC2A43F00600B79D5D /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		1D715BEE2A43F27100B79D5D /* RecipeCategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCategoryGridView.swift; sourceTree = "<group>"; };
 		1D715BF22A44E9FD00B79D5D /* ModifyRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyRecipeView.swift; sourceTree = "<group>"; };
+		1D715BF42A453B3D00B79D5D /* ModifyMainInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyMainInformationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				1D715BF22A44E9FD00B79D5D /* ModifyRecipeView.swift */,
+				1D715BF42A453B3D00B79D5D /* ModifyMainInformationView.swift */,
 			);
 			path = ModifyRecipes;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			files = (
 				1D715BE52A43709D00B79D5D /* Recipe.swift in Sources */,
 				1D715BEB2A43EB1B00B79D5D /* RecipeDetailView.swift in Sources */,
+				1D715BF52A453B3D00B79D5D /* ModifyMainInformationView.swift in Sources */,
 				1D715BD62A43703800B79D5D /* RecipesListView.swift in Sources */,
 				1D715BED2A43F00600B79D5D /* AppColor.swift in Sources */,
 				1D715BF32A44E9FD00B79D5D /* ModifyRecipeView.swift in Sources */,
