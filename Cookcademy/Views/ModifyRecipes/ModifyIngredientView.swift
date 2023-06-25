@@ -14,10 +14,14 @@ struct ModifyIngredientView: View {
     @Environment(\.presentationMode) private var mode
     // @Environment(\.dismiss) private var dismiss <- Alternative to the code above
     
+    private let listBackgroundColor = AppColor.background
+    private let listTextColor = AppColor.foreground
+    
     var body: some View {
         VStack {
             Form {
               TextField("Ingredient Name", text: $ingredient.name)
+                    .listRowBackground(listBackgroundColor)
                 Stepper(value: $ingredient.quantity, in: 0...100, step: 0.5) {
                 HStack {
                   Text("Quantity:")
@@ -27,6 +31,7 @@ struct ModifyIngredientView: View {
                     .keyboardType(.numbersAndPunctuation)
                 }
               }
+                .listRowBackground(listBackgroundColor)
               Picker(selection: $ingredient.unit, label:
                       HStack {
                         Text("Unit")
@@ -38,6 +43,7 @@ struct ModifyIngredientView: View {
                 }
               }
               .pickerStyle(MenuPickerStyle())
+              .listRowBackground(listBackgroundColor)
              HStack {
                     Spacer()
                     Button("Save") {
@@ -46,7 +52,9 @@ struct ModifyIngredientView: View {
                     }
                     Spacer()
                 }
+             .listRowBackground(listBackgroundColor)
             }
+            .foregroundColor(listTextColor)
         }
     }
 }
