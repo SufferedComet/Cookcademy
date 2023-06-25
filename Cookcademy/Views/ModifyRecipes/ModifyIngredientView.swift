@@ -9,6 +9,10 @@ import SwiftUI
 
 struct ModifyIngredientView: View {
     @Binding var ingredient: Ingredient
+    let createAction: ((Ingredient) -> Void)
+    
+    @Environment(\.presentationMode) private var mode
+    // @Environment(\.dismiss) private var dismiss <- Alternative to the code above
     
     var body: some View {
         VStack {
@@ -34,6 +38,14 @@ struct ModifyIngredientView: View {
                 }
               }
               .pickerStyle(MenuPickerStyle())
+             HStack {
+                    Spacer()
+                    Button("Save") {
+                        createAction(ingredient)
+                        mode.wrappedValue.dismiss()
+                    }
+                    Spacer()
+                }
             }
         }
     }
@@ -49,9 +61,12 @@ extension NumberFormatter {
 
 struct ModifyIngredientView_Previews: PreviewProvider {
     @State static var emptyIngredient = Ingredient(name: "", quantity: 1.0, unit: .none)
+    
     static var previews: some View {
         NavigationView {
-            ModifyIngredientView(ingredient: $emptyIngredient)
+            ModifyIngredientView(ingredient: $emptyIngredient) { ingredient in
+                print(ingredient)
+            }
         }
     }
 }
