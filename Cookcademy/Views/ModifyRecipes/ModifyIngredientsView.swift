@@ -31,7 +31,7 @@ struct ModifyIngredientsView: View {
                         Text(ingredient.description)
                     }
                     .listRowBackground(listBackgroundColor)
-                    NavigationLink("Add another ingredient", destination: addIngredientView )
+                    NavigationLink("Add another ingredient", destination: addIngredientView)
                         .buttonStyle(PlainButtonStyle())
                         .listRowBackground(listBackgroundColor)
                 }
